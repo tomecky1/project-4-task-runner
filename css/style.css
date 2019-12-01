@@ -9,12 +9,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-family: "Roboto", monospace;
-  color: #34495e;
+  color: #435261;
 }
 
 .container {
   max-width: 1140px;
-  padding: 0 20px;
+  padding: 20px 20px;
   margin: 0 auto;
 }
 
@@ -82,5 +82,56 @@ body {
   font-style: bold;
   font-size: 58px;
   color: #ffffff;
+}
+
+.container h1, p {
+  text-align: center;
+}
+
+.container h1 {
+  color: #000000;
+  font-size: 40px;
+  font-family: "Roboto", monospace;
+  font-weight: bold;
+}
+
+.container p {
+  font-style: italic;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  color: #b4b4b4;
+}
+
+.card-body h3 {
+  text-align: center;
+  color: #000000;
+}
+
+.card-body p {
+  text-align: center;
+  color: #b4b4b4;
+  font-size: 14px;
+}
+
+.card-image {
+  text-align: center;
+  text-align: -webkit-center;
+}
+
+.card-image i {
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  font-size: 44px;
+  color: gold;
+  background: #ffffff;
+  width: 76px;
+  height: 76px;
+  border: gold 3px solid;
+  border-radius: 50%;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
