@@ -1,0 +1,77 @@
+/* Variables */
+$text-light: #ffffff;
+$text-main: #34495e;
+$text-header: #000000;
+
+$color-gold: gold;
+$color-grey: #b4b4b4;
+
+$font-title: 'Lato', sans-serif;
+$font-main: 'Roboto', monospace;
+
+
+
+
+/* Global */
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: $font-main;
+    color: $text-main;
+}
+.container {
+        max-width: 1140px;
+        padding: 0 20px;
+        margin: 0 auto;
+}
+/* Navigation */
+.navigation {
+    height: 100vh;
+    position: relative;
+    background-image: url('/images/splash.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navigation-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.brand-title {
+    color: $color-gold;
+    font-family: $font-title;
+    font-style: oblique;
+
+}
+.navigation-menu ul li {
+    display: inline-block;    
+        a {
+            text-decoration: none;
+            font-family: $font-main;
+            color: $text-light;
+        }
+}
+.splash-inner {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.splash-inner .page-title {
+    font-family: $font-title;
+    font-style: italic;
+    font-size: 32px;
+    color: $text-light;
+}
+.splash-inner .page-subtitle {
+    font-family: $font-main;
+    font-style: bold;
+    font-size: 48px;
+    color: $text-light;
+}

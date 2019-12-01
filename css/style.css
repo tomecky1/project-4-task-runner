@@ -1,0 +1,77 @@
+/* Variables */
+/* Global */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", monospace;
+  color: #34495e;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* Navigation */
+.navigation {
+  height: 100vh;
+  position: relative;
+  background-image: url("/images/splash.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navigation-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.brand-title {
+  color: gold;
+  font-family: "Lato", sans-serif;
+  font-style: oblique;
+}
+
+.navigation-menu ul li {
+  display: inline-block;
+}
+
+.navigation-menu ul li a {
+  text-decoration: none;
+  font-family: "Roboto", monospace;
+  color: #ffffff;
+}
+
+.splash-inner {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.splash-inner .page-title {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.splash-inner .page-subtitle {
+  font-family: "Roboto", monospace;
+  font-style: bold;
+  font-size: 48px;
+  color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */
