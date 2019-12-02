@@ -85,6 +85,17 @@ section {
     font-size: 58px;
     color: $text-light;
 }
+.btn {
+    color: $text-light;
+    background: $color-gold;
+    padding: 20px 25px;
+    font-weight: bold;
+    font-family: $font-main;
+    font-size: 32px;
+    border-radius: 5px;
+    border: 1px $text-header solid;
+    text-decoration: none;
+}
 /* Services */
 .container h1,p {
     text-align: center;
