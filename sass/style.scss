@@ -23,6 +23,9 @@ body {
     font-family: $font-main;
     color: $text-main;
 }
+section {
+    padding: 96px 0;
+}
 .container {
         max-width: 1140px;
         padding: 20px 20px;
@@ -82,6 +85,7 @@ body {
     font-size: 58px;
     color: $text-light;
 }
+/* Services */
 .container h1,p {
     text-align: center;
 }
@@ -123,3 +127,16 @@ body {
     align-items: center;
     }
 }
+/* Portfolio */
+.portfolio {
+    background: #f3f1f1;
+    .card-body {
+        display: flex;
+        background: $text-light;
+        border: 1px;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
