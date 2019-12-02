@@ -184,4 +184,27 @@ section {
         color: $text-main;
     }
 }
+/* Mobile */
+@media (max-width: 767px) {
+    .navigation-menu ul li a {
+        padding: 0;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .splash-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .splash-inner .page-title {
+        font-size: 20px;
+        margin: 0 auto;
+    }
+    .splash-inner .page-subtitle {
+        font-size: 40px;
+        margin: 0 auto;
+    }
+}
 
