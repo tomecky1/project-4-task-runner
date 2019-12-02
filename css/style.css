@@ -110,12 +110,14 @@ section {
 .card-body h3 {
   text-align: center;
   color: #000000;
+  margin-bottom: 0;
 }
 
 .card-body p {
   text-align: center;
   color: #b4b4b4;
-  font-size: 14px;
+  font-size: 16px;
+  margin-top: 0;
 }
 
 .card-image {
@@ -163,5 +165,41 @@ section {
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+  margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+  background: #ffffff;
+}
+
+.footer-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.footer .footer-company {
+  font-size: 14px;
+  font-family: "Roboto", monospace;
+  font-weight: bold;
+  color: #435261;
+}
+
+.footer .social-links ul li {
+  display: inline-block;
+  font-size: 0;
+}
+
+.footer .social-links ul li a {
+  text-decoration: none;
+}
+
+.footer .social-links ul li i {
+  font-size: 36px;
+  color: #435261;
 }
 /*# sourceMappingURL=style.css.map */
